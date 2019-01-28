@@ -8,6 +8,6 @@ new Vue({
   components: { App },
   template: '<App/>',
   beforeCreate () {
-    this.$router.puah({name: 'popup'})
+    this.$router.puah({name: 'index'})
   }
 })

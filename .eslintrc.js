@@ -9,6 +9,9 @@ module.exports = {
         "ecmaVersion": 2016,
         "sourceType": "module"
     },
+    "plugins": [
+        "vue"
+    ],
     "rules": {
         "linebreak-style": [
             "error",
@@ -21,6 +24,7 @@ module.exports = {
         "semi": [
             "error",
             "never"
-        ]
+        ],
+        "no-undef": "off"
     }
 };

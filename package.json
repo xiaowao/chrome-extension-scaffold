@@ -4,7 +4,9 @@
   "description": "扩展应用脚手架",
   "main": "index.js",
   "scripts": {
-    "test": "jest"
+    "test": "jest",
+    "dev": "webpack --mode='development' --hide-modules",
+    "build": "webpack --mode='production' --hide-modules --progress --colors && crx pack dist -p extension-name.pem -o extension_name.crx"
   },
   "keywords": [
     "webpack",

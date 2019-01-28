@@ -2,7 +2,7 @@
  * @Author: candyxli 
  * @Date: 2019-01-25 13:42:56 
  * @Last Modified by: candyxli
- * @Last Modified time: 2019-01-25 18:30:19
+ * @Last Modified time: 2019-01-28 11:47:34
  */
 const path = require('path')
 const webpack = require('webpack')
@@ -15,8 +15,8 @@ const rootDir = path.resolve(__dirname, '..')
 module.exports = {
 	entry: {
     background: path.join(__dirname, './src/background/index.js'),
-    index: path.join(__dirname, './src/frontEnd/mainPage/main.js'),
-    popup: path.join(__dirname, './src/frontEnd/popup/main.js')
+    index: path.join(__dirname, './src/frontEnd/main-page/main-page.js'),
+    popup: path.join(__dirname, './src/frontEnd/popup/popup.js')
 	},
 	output: {
     path: path.join(__dirname, './dist'),

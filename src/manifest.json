@@ -1,5 +1,26 @@
 {
   "background": {
     "page": "pages/background.html"
-  }
+  },
+  "browser_action": {
+    "default_popup": "pages/popup.html",
+    "default_title": "扩展应用名称"
+  },
+  "icons": {
+    "48": "assets/48.png"
+  },
+  "main_page_url": "pages/index.html",
+  "show_position": 2,
+  "popup_mode": 1,
+  "is_account_related": false,
+  "manifest_version": 2,
+  "minimum_chrome_version": "38.0.0.0",
+  "permissions": ["notifications", "tabs", "storage",
+    "cookies", "http://*/*", "https://*/*", "history",
+    "webRequest", "management", "webNavigation"],
+  "name": "扩展应用名称",
+  "version": "0.0.1",
+  "description": "",
+  "group": "qb-extension",
+  "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEA63svFt+iTxYAfrocVBUyVuhUg/hHYnFBsJcQW1uTx05ZPH3CTHNDSPLeXf1DcpfJ+9JJPfJYmA8v43yFU7Wy5p5S0wyRMNw+bAc6YdbMPWrfdEDvhGE0U5k4JNa1UB8vK6/C/4LH1G3rFm6pQ2KsgPfU/DW5rfF0Cn0zTwVSfxQHV3wvEZwWay3XFjVsJvSHeScWsr+QOyaf9HEPlDB7VTVgd69La0s2YpgcB1aIn2911kah1KRtIHlBJcR2v9+2EPe7/DT303272zR+yba0imAqdjhNrxt6sGnlX+X5Id1RmYhwc5+8iqnB6kPHQVnKvjNa1/WrtLEUf//Z8/wi7QIDAQAB"
 }
