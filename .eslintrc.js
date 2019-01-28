@@ -6,10 +6,12 @@ module.exports = {
     },
     "extends": "eslint:recommended",
     "parserOptions": {
+        "parser": 'babel-eslint',
         "ecmaVersion": 2016,
         "sourceType": "module"
     },
     "plugins": [
+        "html",
         "vue"
     ],
     "rules": {

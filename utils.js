@@ -1,7 +1,7 @@
 const path = require('path')
 const HtmlWebpackPlugin = require('html-webpack-plugin')
 
-exports.htmlPage = (titel, filename, chunks, template) => new HtmlWebpackPlugin({
+exports.htmlPage = (title, filename, chunks, template) => new HtmlWebpackPlugin({
   title,
   hash: false,
   cache: true,
