@@ -1,6 +1,6 @@
-# chrome-extension-scaffold vue + webpack 多页面
+# chrome-extension-scaffold
 
-浏览器扩展程序开发框架
+浏览器扩展程序开发框架 vue + webpack 多页面
 
 ### Development Setup
 
